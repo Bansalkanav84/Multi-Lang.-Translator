@@ -26,52 +26,7 @@ A single-page Vue.js web application that translates English text to Hindi using
 
 ## 🧾 How to Run This Application
 
-### 🔗 Option 1: Online via GitHub Pages
-
-1. Visit the GitHub Pages link provided in the repo (if already deployed)
-
-### 💻 Option 2: Run Locally
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   ```
-
-2. **Navigate to the project folder:**
-
-   ```bash
-   cd your-repo-name
-   ```
-
-3. **Open `index.html` in your browser:**
-
-   * You can simply double-click `index.html` OR
-   * Use a live server (like VSCode Live Server extension)
-
----
-
-## 📁 Project Structure
-
-```
-├── index.html       # Main HTML file
-├── styles.css       # CSS styling
-├── script.js        # JavaScript logic (Vue 3)
-└── README.md        # Project instructions
-```
-
----
-
-## ⚠️ Notes
-
-* This project uses the free tier of MyMemory API, which has rate limits.
-* For production use, consider switching to a paid/official Google Translate API for higher reliability.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
+Visit the GitHub Pages link ->  https://bansalkanav84.github.io/parkspot/
 
 ---
 
