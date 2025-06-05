@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Translator App</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+  <div id="app">
+    <div class="container">
+      <div class="toggle-dark">
+        <button @click="toggleDarkMode">{{ darkMode ? 'Light Mode' : 'Dark Mode' }}</button>
+      </div>
+
+      <h1>English to Language Translator</h1>
+
+      <div class="controls">
+        <select v-model="selectedLanguage">
+          <option v-for="(langName, langCode) in languageOptions" :value="langCode">
+            {{ langName }}
+          </option>
+        </select>
+
+        <input v-model="textToTranslate" placeholder="Enter English text" />
+
+        <button @click="translateText">Translate</button>
+      </div>
+
+      <div v-if="error" class="error">{{ error }}</div>
+
+      <div v-if="translatedText" class="result">
+        <h3>Translated Text:</h3>
+        <p>{{ translatedText }}</p>
+        <button class="tts-btn" @click="speak(translatedText)">🔊 Speak</button>
+      </div>
+
+      <div v-if="translationHistory.length" class="history-section">
+        <div class="history-header">
+          <h3>Translation History (Last 10)</h3>
+          <button @click="clearHistory">Clear</button>
+        </div>
+        <ul>
+          <li v-for="(item, index) in translationHistory" :key="index">
+            <strong>{{ item.english }}</strong> → {{ item.translation }} ({{ item.languageName }})
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
