@@ -26,7 +26,7 @@ A single-page Vue.js web application that translates English text to Hindi using
 
 ## 🧾 How to Run This Application
 
-Visit the GitHub Pages link ->  https://bansalkanav84.github.io/parkspot/
+Visit the GitHub Pages link ->  https://bansalkanav84.github.io/Multi-Lang.-Translator/
 
 ---
 
