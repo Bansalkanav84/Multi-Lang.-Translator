@@ -19,8 +19,8 @@ A single-page Vue.js web application that translates English text to Hindi using
 * HTML5
 * CSS3 (Responsive and Themed)
 * JavaScript (Vanilla)
-* [Vue.js 3 CDN](https://unpkg.com/vue@3)
-* [MyMemory Translation API](https://mymemory.translated.net/doc/spec.php)
+* [Vue.js 3 CDN]
+* [MyMemory Translation API]
 
 ---
 
