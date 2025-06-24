@@ -1,4 +1,4 @@
-# English to Hindi Translator App
+# Multi Language Translator App
 
 A single-page Vue.js web application that translates English text to Hindi using the MyMemory Translation API. It includes support for multiple language selections, a dark mode toggle, translation history, and more.
 
